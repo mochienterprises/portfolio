@@ -5,8 +5,7 @@ const Projects = () => {
       id: 1,
       title: "WIP Portfolio",
       date: "December 2024",
-      description:
-        "clicking this will link you back here, this was made with claude code, zed, and tailwind.",
+      description: "this was made with claude code, zed, and tailwind.",
       tech: ["Python", "AWS Lambda", "DynamoDB"],
       github: "https://github.com/mochienterprises/portfolio",
       live: "https://port-folio-beige-theta.vercel.app/", // optional
