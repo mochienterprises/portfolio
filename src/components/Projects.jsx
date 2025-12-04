@@ -3,18 +3,19 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Placeholder Project",
+      title: "WIP Portfolio",
       date: "December 2024",
-      description: "More will be added soon, preferably when it's made.",
+      description:
+        "clicking this will link you back here, this was made with claude code, zed, and tailwind.",
       tech: ["Python", "AWS Lambda", "DynamoDB"],
-      github: "https://github.com/yourusername/project-name",
-      live: "https://project-demo.com", // optional
+      github: "https://github.com/mochienterprises/portfolio",
+      live: "https://port-folio-beige-theta.vercel.app/", // optional
     },
     {
       id: 2,
       title: "Additional Project",
       date: "November 2024",
-      description: "Similar thing as above, project will come soon.",
+      description: "Similar thing as above, project will come soon",
       tech: ["React", "Node.js", "Azure"],
       github: "https://github.com/yourusername/another-project",
     },
@@ -68,7 +69,7 @@ const Projects = () => {
 
       <div className="pt-12">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/mochienterprises"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm text-neutral-500 dark:text-neutral-500 hover:text-neutral-700 dark:hover:text-neutral-300 transition-colors"
