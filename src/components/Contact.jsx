@@ -4,8 +4,8 @@ const Contact = () => {
       <div>
         <h2 className="text-2xl font-light mb-2">Get in Touch</h2>
         <p className="text-sm text-neutral-500 dark:text-neutral-400 font-light">
-          Available for enterprise consulting, cloud infrastructure projects,
-          and DevOps solutions
+          Available for freelance cloud/automation projects and junior
+          engineering roles
         </p>
       </div>
 

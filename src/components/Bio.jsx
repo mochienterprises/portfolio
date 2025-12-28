@@ -15,7 +15,7 @@ const Bio = () => {
       <div className="pt-4">
         <p className="text-xs text-neutral-400 dark:text-neutral-500">
           <span className="font-semibold">
-            Currently available for freelance work
+            Currently available for freelance work.
           </span>
         </p>
       </div>
