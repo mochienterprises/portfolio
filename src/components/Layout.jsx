@@ -49,7 +49,8 @@ const Layout = () => {
 
         {/* Middle Column - Dynamic Content */}
         <div
-          className={`col-span-12 ${currentView === "home" ? "md:col-span-6" : "md:col-span-9"}`}
+          className={`col-span-12 ${currentView === "home" ? "md:col-span-6" : "md:col-span-9"} transition-opacity duration-300`}
+          key={currentView}
         >
           {renderMiddleContent()}
         </div>
