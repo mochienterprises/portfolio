@@ -3,22 +3,32 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "WIP Portfolio",
-      date: "December 2024",
-      description: "this was made with claude code, zed, and tailwind.",
-      tech: ["Python", "AWS Lambda", "DynamoDB"],
-      github: "https://github.com/mochienterprises/portfolio",
-      live: "https://port-folio-beige-theta.vercel.app/", // optional
+      title: "Debate Intelligence System",
+      date: "December 2025",
+      description:
+        "Full-stack debate analysis pipeline with n8n orchestration, Flask API, and 93k+ Reddit comment dataset across 216 structured debates. Automated workflow processing and RESTful data access.",
+      tech: ["n8n", "Flask", "SQLite", "Python", "Docker"],
+      github: "https://github.com/mochienterprises/n8n-debate-intelligence",
     },
     {
       id: 2,
-      title: "Additional Project",
-      date: "November 2024",
-      description: "Similar thing as above, project will come soon",
-      tech: ["React", "Node.js", "Azure"],
-      github: "https://github.com/yourusername/another-project",
+      title: "JudgeUI",
+      date: "December 2025",
+      description:
+        "AI-powered debate judging system using LLMs to analyze arguments, detect logical fallacies, and provide structured scoring with evidence attribution.",
+      tech: ["React", "Claude API", "Argument Analysis"],
+      github: "https://github.com/mochienterprises/judgeui",
     },
-    // Add more projects by copying the format above
+    {
+      id: 3,
+      title: "Portfolio Website",
+      date: "December 2025",
+      description:
+        "Personal portfolio built with React, Tailwind, and Vite. Features responsive design, dark mode toggle, and WebGL shader effects.",
+      tech: ["React", "Tailwind", "Vite", "WebGL"],
+      github: "https://github.com/mochienterprises/portfolio",
+      live: "https://port-folio-beige-theta.vercel.app/",
+    },
   ];
 
   return (

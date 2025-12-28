@@ -68,8 +68,8 @@ const NoiseBackground = () => {
         float grain = random(st + time * 0.001) * 0.08;
         n += grain;
 
-        // Subtle grayscale output
-        vec3 color = vec3(n * 0.15);
+        // Subtle grayscale output - LOWERED FROM 0.15 TO 0.06
+        vec3 color = vec3(n * 0.06);
         gl_FragColor = vec4(color, 1.0);
       }
     `;
