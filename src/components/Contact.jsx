@@ -43,6 +43,14 @@ const Contact = () => {
             >
               LinkedIn →
             </a>
+            <a
+              href="https://x.com/embuildsai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-sm font-light hover:text-neutral-500 dark:hover:text-neutral-300 transition-colors"
+            >
+              Twitter →
+            </a>
           </div>
         </div>
 

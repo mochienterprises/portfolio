@@ -34,36 +34,36 @@ const Info = () => {
             </div>
             <div>
               <p className="text-sm font-normal mb-2 text-neutral-700 dark:text-neutral-300">
-                Automation & AI
+                Cloud & DevOps
               </p>
               <p className="text-xs font-light text-neutral-500 dark:text-neutral-500">
-                n8n Workflow Automation, OpenAI API Integration, StreamLit,
-                Applied Generative AI
+                Azure, Google Cloud Platform, Docker, CI/CD Pipelines (GitHub
+                Actions) Infrastructure Automation
               </p>
             </div>
             <div>
               <p className="text-sm font-normal mb-2 text-neutral-700 dark:text-neutral-300">
-                Development
+                Programming
               </p>
               <p className="text-xs font-light text-neutral-500 dark:text-neutral-500">
-                Python, Java, MySQL, Object-Oriented Design, API Development
+                Python, Java, SQL, JavaScript, HTML/CSS
               </p>
             </div>
             <div>
               <p className="text-sm font-normal mb-2 text-neutral-700 dark:text-neutral-300">
-                Cybersecurity
+                Frameworks & Tools
               </p>
               <p className="text-xs font-light text-neutral-500 dark:text-neutral-500">
-                Kali Linux, Snort IDS, Network Security, Incident Response,
-                Security Risk Analysis
+                React, Flask, n8n, Tailwind CSS, ServiceNow, Vite
               </p>
             </div>
             <div>
               <p className="text-sm font-normal mb-2 text-neutral-700 dark:text-neutral-300">
-                Tools & Platforms
+                Specialties
               </p>
               <p className="text-xs font-light text-neutral-500 dark:text-neutral-500">
-                ServiceNow, Microsoft 365 Suite, SharePoint, Figma, Canva
+                Workflow Automation, API Development, AI Integration, Cloud
+                Infrastructure, DevOps
               </p>
             </div>
           </div>
@@ -87,6 +87,10 @@ const Info = () => {
               Built and deployed cloud applications on Azure and GCP using CI/CD
               pipelines, and designed AI workflow automation reducing manual
               processing time by 50%.
+            </p>
+            <p>
+              Built a testing framework to do comparative analysis of AI models
+              for qualitative judgement or arguments.
             </p>
           </div>
         </div>
