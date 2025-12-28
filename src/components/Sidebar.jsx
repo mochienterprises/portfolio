@@ -19,7 +19,7 @@ const Sidebar = ({ currentView, setCurrentView }) => {
               Greg Emery
             </h1>
             <p className="text-sm text-neutral-500 dark:text-neutral-400 font-light">
-              Cloud Solutions Engineer
+              Software Engineer
             </p>
           </button>
         </div>
