@@ -27,7 +27,7 @@ const Projects = () => {
         "Personal portfolio built with React, Tailwind, and Vite. Features responsive design, dark mode toggle, and WebGL shader effects.",
       tech: ["React", "Tailwind", "Vite", "WebGL"],
       github: "https://github.com/mochienterprises/portfolio",
-      live: "https://port-folio-beige-theta.vercel.app/",
+      live: "(It's the website that you're on!)",
     },
   ];
 
