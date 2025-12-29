@@ -28,7 +28,14 @@ const Layout = () => {
       case "contact":
         return <Contact />;
       default:
-        return <NoiseBackground />;
+        // Updated text color: dark in light mode, light in dark mode
+        return (
+          <div className="flex items-center justify-center h-full">
+            <p className="text-sm text-neutral-800 dark:text-neutral-300 font-normal max-w-md text-center drop-shadow-lg">
+              Creative experiences through cloud engineering and automation
+            </p>
+          </div>
+        );
     }
   };
 
@@ -40,8 +47,16 @@ const Layout = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 transition-colors duration-300">
-      <div className="grid grid-cols-12 min-h-screen gap-8 px-8 py-16 max-w-[1800px] mx-auto">
+    <div className="relative min-h-screen bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 transition-colors duration-300">
+      {/* Full-screen background - ONLY on home page */}
+      {currentView === "home" && (
+        <div className="fixed inset-0 z-0">
+          <NoiseBackground />
+        </div>
+      )}
+
+      {/* Content layer - floats on top of background */}
+      <div className="relative z-10 grid grid-cols-12 min-h-screen gap-8 px-8 py-16 max-w-[1800px] mx-auto">
         {/* Left Column - Sidebar */}
         <div className="col-span-12 md:col-span-3">
           <Sidebar currentView={currentView} setCurrentView={setCurrentView} />
@@ -49,8 +64,7 @@ const Layout = () => {
 
         {/* Middle Column - Dynamic Content */}
         <div
-          className={`col-span-12 ${currentView === "home" ? "md:col-span-6" : "md:col-span-9"} transition-opacity duration-300`}
-          key={currentView}
+          className={`col-span-12 ${currentView === "home" ? "md:col-span-6" : "md:col-span-9"}`}
         >
           {renderMiddleContent()}
         </div>
