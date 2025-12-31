@@ -16,10 +16,10 @@ const Sidebar = ({ currentView, setCurrentView }) => {
         <div>
           <button onClick={() => handleNavigate("home")} className="text-left">
             <h1 className="text-3xl font-light tracking-tight mb-2 hover:text-neutral-600 dark:hover:text-neutral-400 transition-colors">
-              Greg Emery
+              Greg Gibson
             </h1>
             <p className="text-sm text-neutral-500 dark:text-neutral-400 font-light">
-              Software Engineer
+              Cloud DevOps | AI/ML Engineer
             </p>
           </button>
         </div>

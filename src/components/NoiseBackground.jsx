@@ -4,7 +4,7 @@ const NoiseBackground = () => {
   return (
     <div className="absolute inset-0 w-full h-full">
       {/* Dark Mode Dithering */}
-      <div className="absolute inset-0 opacity-20 dark:block hidden transition-opacity duration-300">
+      <div className="absolute inset-0 opacity-30 dark:block hidden transition-opacity duration-300">
         <Dithering
           speed={0.5}
           shape="warp"
@@ -18,8 +18,8 @@ const NoiseBackground = () => {
         />
       </div>
 
-      {/* Light Mode Dithering (NEW LIGHTER COLOR) */}
-      <div className="absolute inset-0 opacity-50 block dark:hidden transition-opacity duration-300">
+      {/* Light Mode Dithering */}
+      <div className="absolute inset-0 opacity-60 dark:hidden transition-opacity duration-300">
         <Dithering
           speed={1}
           shape="warp"
@@ -34,10 +34,10 @@ const NoiseBackground = () => {
       </div>
 
       {/* Dark overlay - Dark Mode */}
-      <div className="absolute inset-0 bg-black/40 dark:block hidden transition-opacity duration-300" />
+      <div className="absolute inset-0 bg-black/60 dark:block hidden transition-opacity duration-300" />
 
       {/* Light overlay - Light Mode */}
-      <div className="absolute inset-0 bg-white/20 block dark:hidden transition-opacity duration-300" />
+      <div className="absolute inset-0 bg-white/30 dark:hidden transition-opacity duration-300" />
     </div>
   );
 };
